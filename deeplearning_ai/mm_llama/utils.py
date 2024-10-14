@@ -195,3 +195,51 @@ def wolfram_alpha(query: str) -> str:
 def get_boiling_point(liquid_name, celsius):
   # function body
   return []
+
+
+def html_tokens(tokens):
+  # simulate the color values used in https://tiktokenizer.vercel.app
+  on_colors = ["#ADE0FC", "#FCE278", "#B2D1FE", "#AFF7C6", "#FDCE9B", "#97F1FB", "#DEE1E7", "#E3C9FF", "#BBC6FD", "#D1FB8C"]
+
+  # Create an HTML string with colored spans
+  html_string = ""
+  for i, t in enumerate(tokens):
+      if t == "\n":
+            t = "\\n"
+      elif t == "\n\n":
+            t = "\\n\\n"
+      on_col = on_colors[i % len(on_colors)]
+      html_string += f'<span style="color: black; background-color: {on_col}; padding: 2px;">{t}</span>'
+
+  return html_string
+
+
+# The code below should be added to a util.py file
+
+import requests
+import json
+
+def llamaguard3(prompt, debug=False):
+  model = "meta-llama/Meta-Llama-Guard-3-8B"
+  url = f"{os.getenv('DLAI_TOGETHER_API_BASE', 'https://api.together.xyz')}/v1/completions"
+  payload = {
+    "model": model,
+    "temperature": 0,
+    "prompt": prompt,
+    "max_tokens": 4096,
+  }
+
+  headers = {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "Authorization": "Bearer " + os.environ["TOGETHER_API_KEY"]
+  }
+  res = json.loads(requests.request("POST", url, headers=headers, data=json.dumps(payload)).content)
+
+  if 'error' in res:
+    raise Exception(res['error'])
+
+  if debug:
+    print(res)
+  return res['choices'][0]['text']
+
