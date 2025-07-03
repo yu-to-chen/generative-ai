@@ -1,0 +1,68 @@
+[
+    {
+        "id": "vet_001",
+        "name": "Happy Paws Animal Hospital",
+        "address": "123 Pet Lane",
+        "city": "Pleasanton",
+        "state": "CA",
+        "zip_code": "94566",
+        "phone": "925-555-1234",
+        "services": [
+            "General Check-up",
+            "Vaccinations",
+            "Surgery"
+        ]
+    },
+    {
+        "id": "vet_002",
+        "name": "Furry Friends Clinic",
+        "address": "456 Bark Avenue",
+        "city": "Dublin",
+        "state": "CA",
+        "zip_code": "94568",
+        "phone": "925-555-5678",
+        "services": [
+            "Dental Care",
+            "Emergency Services"
+        ]
+    },
+    {
+        "id": "vet_003",
+        "name": "East Bay Vet Center",
+        "address": "789 Canine Street",
+        "city": "Pleasanton",
+        "state": "CA",
+        "zip_code": "94566",
+        "phone": "925-555-9012",
+        "services": [
+            "Spay/Neuter",
+            "Microchipping"
+        ]
+    },
+    {
+        "id": "vet_004",
+        "name": "City Vet Hospital",
+        "address": "101 Main Street",
+        "city": "Oakland",
+        "state": "CA",
+        "zip_code": "94612",
+        "phone": "510-555-3456",
+        "services": [
+            "General Check-up",
+            "Vaccinations"
+        ]
+    },
+    {
+        "id": "vet_005",
+        "name": "Animal Care Associates",
+        "address": "222 Elm Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94103",
+        "phone": "415-555-7890",
+        "services": [
+            "Dermatology",
+            "Internal Medicine"
+        ]
+    }
+]
