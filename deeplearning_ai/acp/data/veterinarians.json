@@ -1,68 +1,1101 @@
-[
-    {
-        "id": "vet_001",
-        "name": "Happy Paws Animal Hospital",
-        "address": "123 Pet Lane",
-        "city": "Pleasanton",
-        "state": "CA",
-        "zip_code": "94566",
-        "phone": "925-555-1234",
-        "services": [
-            "General Check-up",
-            "Vaccinations",
-            "Surgery"
-        ]
+{
+  "VET001": {
+    "name": "Dr. Emily Smith",
+    "specialty": "Small Animal Internal Medicine",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Montgomery",
+      "state": "AL",
+      "zip_code": "36104"
     },
-    {
-        "id": "vet_002",
-        "name": "Furry Friends Clinic",
-        "address": "456 Bark Avenue",
-        "city": "Dublin",
-        "state": "CA",
-        "zip_code": "94568",
-        "phone": "925-555-5678",
-        "services": [
-            "Dental Care",
-            "Emergency Services"
-        ]
+    "phone": "(334) 555-1234",
+    "email": "e.smith@alabamavet.com",
+    "years_experience": 10,
+    "board_certified": "True",
+    "clinic_affiliations": ["Montgomery Animal Hospital", "Capital City Vet Clinic"],
+    "education": {
+      "veterinary_school": "Auburn University College of Veterinary Medicine",
+      "internship": "Animal Medical Center",
+      "residency": "University of California, Davis"
     },
-    {
-        "id": "vet_003",
-        "name": "East Bay Vet Center",
-        "address": "789 Canine Street",
-        "city": "Pleasanton",
-        "state": "CA",
-        "zip_code": "94566",
-        "phone": "925-555-9012",
-        "services": [
-            "Spay/Neuter",
-            "Microchipping"
-        ]
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Nationwide Pet Insurance"]
+  },
+  "VET002": {
+    "name": "Dr. Benjamin Johnson",
+    "specialty": "Emergency and Critical Care",
+    "address": {
+      "street": "456 Elm Avenue",
+      "city": "Anchorage",
+      "state": "AK",
+      "zip_code": "99501"
     },
-    {
-        "id": "vet_004",
-        "name": "City Vet Hospital",
-        "address": "101 Main Street",
-        "city": "Oakland",
-        "state": "CA",
-        "zip_code": "94612",
-        "phone": "510-555-3456",
-        "services": [
-            "General Check-up",
-            "Vaccinations"
-        ]
+    "phone": "(907) 555-5678",
+    "email": "b.johnson@alaskavet.com",
+    "years_experience": 7,
+    "board_certified": "True",
+    "clinic_affiliations": ["Alaska Pet Emergency", "North Star Vet Clinic"],
+    "education": {
+      "veterinary_school": "Colorado State University College of Veterinary Medicine and Biomedical Sciences",
+      "internship": "BluePearl Veterinary Partners",
+      "residency": "University of Pennsylvania"
     },
-    {
-        "id": "vet_005",
-        "name": "Animal Care Associates",
-        "address": "222 Elm Street",
-        "city": "San Francisco",
-        "state": "CA",
-        "zip_code": "94103",
-        "phone": "415-555-7890",
-        "services": [
-            "Dermatology",
-            "Internal Medicine"
-        ]
-    }
-]
+    "languages": ["English"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Petplan", "ASPCA Pet Health Insurance"]
+  },
+  "VET003": {
+    "name": "Dr. Olivia Davis",
+    "specialty": "Avian and Exotics",
+    "address": {
+      "street": "789 Oak Lane",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip_code": "85001"
+    },
+    "phone": "(602) 555-9012",
+    "email": "o.davis@arizonavet.com",
+    "years_experience": 12,
+    "board_certified": "True",
+    "clinic_affiliations": ["Phoenix Exotic Pet Hospital", "Arizona Avian Clinic"],
+    "education": {
+      "veterinary_school": "University of California, Davis School of Veterinary Medicine",
+      "internship": "Veterinary Medical Center of Long Island",
+      "residency": "The University of Georgia"
+    },
+    "languages": ["English", "Spanish"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["PetFirst", "Figo Pet Insurance"]
+  },
+  "VET004": {
+    "name": "Dr. Noah Miller",
+    "specialty": "Large Animal Practice",
+    "address": {
+      "street": "101 Farm Road",
+      "city": "Little Rock",
+      "state": "AR",
+      "zip_code": "72201"
+    },
+    "phone": "(501) 555-3456",
+    "email": "n.miller@arkansasvet.com",
+    "years_experience": 9,
+    "board_certified": "False",
+    "clinic_affiliations": ["Arkansas Equine Hospital", "Central Arkansas Livestock Vet"],
+    "education": {
+      "veterinary_school": "Oklahoma State University Center for Veterinary Health Sciences",
+      "internship": "Rood & Riddle Equine Hospital"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Not applicable for livestock", "Farm Bureau"]
+  },
+  "VET005": {
+    "name": "Dr. Sophia Garcia",
+    "specialty": "Dermatology",
+    "address": {
+      "street": "222 Ocean Boulevard",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90001"
+    },
+    "phone": "(213) 555-7890",
+    "email": "s.garcia@californiavet.com",
+    "years_experience": 18,
+    "board_certified": "True",
+    "clinic_affiliations": ["Animal Dermatology Clinic", "VetSurg"],
+    "education": {
+      "veterinary_school": "University of Pennsylvania School of Veterinary Medicine",
+      "residency": "University of California, Davis"
+    },
+    "languages": ["English", "Spanish"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Healthy Paws", "Embrace Pet Insurance"]
+  },
+  "VET006": {
+    "name": "Dr. William Rodriguez",
+    "specialty": "Oncology",
+    "address": {
+      "street": "333 Mountain View",
+      "city": "Denver",
+      "state": "CO",
+      "zip_code": "80202"
+    },
+    "phone": "(720) 555-1122",
+    "email": "w.rodriguez@coloradovet.com",
+    "years_experience": 14,
+    "board_certified": "True",
+    "clinic_affiliations": ["Colorado Animal Specialty & Emergency", "VCA Denver Veterinary Specialists"],
+    "education": {
+      "veterinary_school": "Colorado State University College of Veterinary Medicine and Biomedical Sciences",
+      "residency": "Animal Medical Center"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Pets Best", "ASPCA Pet Health Insurance"]
+  },
+  "VET007": {
+    "name": "Dr. Isabella Martinez",
+    "specialty": "Ophthalmology",
+    "address": {
+      "street": "444 River Road",
+      "city": "Hartford",
+      "state": "CT",
+      "zip_code": "06103"
+    },
+    "phone": "(860) 555-3344",
+    "email": "i.martinez@connecticutvet.com",
+    "years_experience": 11,
+    "board_certified": "True",
+    "clinic_affiliations": ["Veterinary Referral and Emergency Center", "Connecticut Veterinary Center"],
+    "education": {
+      "veterinary_school": "Cornell University College of Veterinary Medicine",
+      "residency": "Angell Animal Medical Center"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Nationwide Pet Insurance"]
+  },
+  "VET008": {
+    "name": "Dr. James Lee",
+    "specialty": "Cardiology",
+    "address": {
+      "street": "555 Coastal Highway",
+      "city": "Dover",
+      "state": "DE",
+      "zip_code": "19901"
+    },
+    "phone": "(302) 555-5566",
+    "email": "j.lee@delawarevet.com",
+    "years_experience": 16,
+    "board_certified": "True",
+    "clinic_affiliations": ["Delaware Veterinary Specialty Practice", "Eastern Shore Veterinary Hospital"],
+    "education": {
+      "veterinary_school": "University of Pennsylvania School of Veterinary Medicine",
+      "residency": "MedVet Medical & Cancer Centers for Pets"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Petplan", "Healthy Paws"]
+  },
+  "VET009": {
+    "name": "Dr. Abigail Hernandez",
+    "specialty": "Neurology",
+    "address": {
+      "street": "666 Sunshine Street",
+      "city": "Miami",
+      "state": "FL",
+      "zip_code": "33101"
+    },
+    "phone": "(305) 555-7788",
+    "email": "a.hernandez@floridavet.com",
+    "years_experience": 13,
+    "board_certified": "True",
+    "clinic_affiliations": ["Veterinary Specialty Hospital of Florida", "South Florida Veterinary Specialists"],
+    "education": {
+      "veterinary_school": "University of Florida College of Veterinary Medicine",
+      "residency": "University of Georgia"
+    },
+    "languages": ["English", "Spanish"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Embrace Pet Insurance", "Figo Pet Insurance"]
+  },
+  "VET010": {
+    "name": "Dr. Daniel White",
+    "specialty": "Dentistry",
+    "address": {
+      "street": "777 Peach Tree Lane",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip_code": "30303"
+    },
+    "phone": "(404) 555-9900",
+    "email": "d.white@georgiavet.com",
+    "years_experience": 8,
+    "board_certified": "True",
+    "clinic_affiliations": ["Atlanta Veterinary Dentistry", "Georgia Vet Specialists"],
+    "education": {
+      "veterinary_school": "The University of Georgia College of Veterinary Medicine",
+      "residency": "Animal Dentistry Training Center"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Nationwide Pet Insurance"]
+  },
+  "VET011": {
+    "name": "Dr. Mia Moore",
+    "specialty": "General Practice - Small Animal",
+    "address": {
+      "street": "888 Palm Tree Road",
+      "city": "Honolulu",
+      "state": "HI",
+      "zip_code": "96813"
+    },
+    "phone": "(808) 555-1212",
+    "email": "m.moore@hawaiivet.com",
+    "years_experience": 6,
+    "board_certified": "False",
+    "clinic_affiliations": ["Oahu Veterinary Hospital", "Honolulu Pet Clinic"],
+    "education": {
+      "veterinary_school": "Oregon State University College of Veterinary Medicine"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Pets Best", "Lemonade Pet Insurance"]
+  },
+  "VET012": {
+    "name": "Dr. Ethan Taylor",
+    "specialty": "Surgery",
+    "address": {
+      "street": "999 Mountain Avenue",
+      "city": "Boise",
+      "state": "ID",
+      "zip_code": "83702"
+    },
+    "phone": "(208) 555-3434",
+    "email": "e.taylor@idahovet.com",
+    "years_experience": 17,
+    "board_certified": "True",
+    "clinic_affiliations": ["WestVet Animal Emergency and Specialty Center", "Boise Veterinary Specialty"],
+    "education": {
+      "veterinary_school": "Washington State University College of Veterinary Medicine",
+      "residency": "Michigan State University"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Healthy Paws", "Trupanion"]
+  },
+  "VET013": {
+    "name": "Dr. Charlotte Thomas",
+    "specialty": "Internal Medicine - Equine",
+    "address": {
+      "street": "111 Prairie Lane",
+      "city": "Springfield",
+      "state": "IL",
+      "zip_code": "62701"
+    },
+    "phone": "(217) 555-5656",
+    "email": "c.thomas@illinoisvet.com",
+    "years_experience": 10,
+    "board_certified": "True",
+    "clinic_affiliations": ["Midwest Equine Hospital", "Illinois Equine Field Service"],
+    "education": {
+      "veterinary_school": "University of Illinois College of Veterinary Medicine",
+      "residency": "Purdue University"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Not applicable for livestock", "Markel Horse Insurance"]
+  },
+  "VET014": {
+    "name": "Dr. Alexander Clark",
+    "specialty": "Preventative Care",
+    "address": {
+      "street": "222 Cornfield Road",
+      "city": "Indianapolis",
+      "state": "IN",
+      "zip_code": "46204"
+    },
+    "phone": "(317) 555-7878",
+    "email": "a.clark@indianavet.com",
+    "years_experience": 5,
+    "board_certified": "False",
+    "clinic_affiliations": ["Indianapolis Veterinary Clinic", "Circle City Animal Hospital"],
+    "education": {
+      "veterinary_school": "Purdue University College of Veterinary Medicine"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Nationwide Pet Insurance", "ASPCA Pet Health Insurance"]
+  },
+  "VET015": {
+    "name": "Dr. Amelia Lewis",
+    "specialty": "Radiology",
+    "address": {
+      "street": "333 Riverfront Drive",
+      "city": "Des Moines",
+      "state": "IA",
+      "zip_code": "50309"
+    },
+    "phone": "(515) 555-9090",
+    "email": "a.lewis@iovavet.com",
+    "years_experience": 14,
+    "board_certified": "True",
+    "clinic_affiliations": ["Iowa Veterinary Specialties", "Des Moines Animal Hospital"],
+    "education": {
+      "veterinary_school": "Iowa State University College of Veterinary Medicine",
+      "residency": "University of Wisconsin-Madison"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Petplan"]
+  },
+  "VET016": {
+    "name": "Dr. Michael Hall",
+    "specialty": "Reproduction",
+    "address": {
+      "street": "444 Sunflower Lane",
+      "city": "Topeka",
+      "state": "KS",
+      "zip_code": "66603"
+    },
+    "phone": "(785) 555-1234",
+    "email": "m.hall@kansasvet.com",
+    "years_experience": 12,
+    "board_certified": "True",
+    "clinic_affiliations": ["Kansas State University Veterinary Health Center", "Midwest Animal Reproduction Center"],
+    "education": {
+      "veterinary_school": "Kansas State University College of Veterinary Medicine",
+      "residency": "Texas A&M University"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Not applicable for livestock", "Breeding Insurance"]
+  },
+  "VET017": {
+    "name": "Dr. Evelyn Young",
+    "specialty": "Feline Medicine",
+    "address": {
+      "street": "555 Bluegrass Boulevard",
+      "city": "Lexington",
+      "state": "KY",
+      "zip_code": "40507"
+    },
+    "phone": "(859) 555-5678",
+    "email": "e.young@kentuckyvet.com",
+    "years_experience": 9,
+    "board_certified": "False",
+    "clinic_affiliations": ["Cat Clinic of Lexington", "Kentucky Cat Hospital"],
+    "education": {
+      "veterinary_school": "Auburn University College of Veterinary Medicine"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Healthy Paws", "Embrace Pet Insurance"]
+  },
+  "VET018": {
+    "name": "Dr. Benjamin King",
+    "specialty": "Zoological Medicine",
+    "address": {
+      "street": "666 Bayou Road",
+      "city": "New Orleans",
+      "state": "LA",
+      "zip_code": "70112"
+    },
+    "phone": "(504) 555-9012",
+    "email": "b.king@louisianavet.com",
+    "years_experience": 11,
+    "board_certified": "True",
+    "clinic_affiliations": ["Audubon Zoo Veterinary Hospital", "Louisiana Zoo & Wildlife Vet Services"],
+    "education": {
+      "veterinary_school": "Louisiana State University School of Veterinary Medicine",
+      "residency": "Smithsonian National Zoo"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Not applicable"]
+  },
+  "VET019": {
+    "name": "Dr. Harper Wright",
+    "specialty": "Rehabilitation",
+    "address": {
+      "street": "777 Lighthouse Lane",
+      "city": "Portland",
+      "state": "ME",
+      "zip_code": "04101"
+    },
+    "phone": "(207) 555-3456",
+    "email": "h.wright@mainevet.com",
+    "years_experience": 7,
+    "board_certified": "True",
+    "clinic_affiliations": ["Maine Veterinary Medical Center", "Portland Animal Rehabilitation"],
+    "education": {
+      "veterinary_school": "Tufts University Cummings School of Veterinary Medicine",
+      "residency": "University of Tennessee"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Nationwide Pet Insurance"]
+  },
+  "VET020": {
+    "name": "Dr. Mason Scott",
+    "specialty": "Anesthesiology",
+    "address": {
+      "street": "888 Chesapeake Bay Drive",
+      "city": "Baltimore",
+      "state": "MD",
+      "zip_code": "21201"
+    },
+    "phone": "(410) 555-7890",
+    "email": "m.scott@marylandvet.com",
+    "years_experience": 15,
+    "board_certified": "True",
+    "clinic_affiliations": ["VCA SouthPaws Veterinary Specialists & Emergency Center", "Maryland Veterinary Referral Center"],
+    "education": {
+      "veterinary_school": "Virginia-Maryland College of Veterinary Medicine",
+      "residency": "University of Florida"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Petplan", "Pets Best"]
+  },
+  "VET021": {
+    "name": "Dr. Ella Green",
+    "specialty": "Internal Medicine - Small Animal",
+    "address": {
+      "street": "999 Beacon Street",
+      "city": "Boston",
+      "state": "MA",
+      "zip_code": "02108"
+    },
+    "phone": "(617) 555-1122",
+    "email": "e.green@massachusettsvet.com",
+    "years_experience": 18,
+    "board_certified": "True",
+    "clinic_affiliations": ["Angell Animal Medical Center", "Tufts VETS"],
+    "education": {
+      "veterinary_school": "Tufts University Cummings School of Veterinary Medicine",
+      "residency": "Cornell University"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Healthy Paws", "Embrace Pet Insurance"]
+  },
+  "VET022": {
+    "name": "Dr. Aiden Baker",
+    "specialty": "Pathology",
+    "address": {
+      "street": "101 Great Lakes Drive",
+      "city": "Detroit",
+      "state": "MI",
+      "zip_code": "48201"
+    },
+    "phone": "(313) 555-3344",
+    "email": "a.baker@michiganvet.com",
+    "years_experience": 10,
+    "board_certified": "True",
+    "clinic_affiliations": ["Michigan State University Veterinary Medical Center", "Animal Diagnostic Laboratory"],
+    "education": {
+      "veterinary_school": "Michigan State University College of Veterinary Medicine",
+      "residency": "Ohio State University"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Not applicable for lab services"]
+  },
+  "VET023": {
+    "name": "Dr. Scarlett Adams",
+    "specialty": "Preventative Care",
+    "address": {
+      "street": "222 Lake Street",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip_code": "55401"
+    },
+    "phone": "(612) 555-5566",
+    "email": "s.adams@minnesotavet.com",
+    "years_experience": 6,
+    "board_certified": "False",
+    "clinic_affiliations": ["University of Minnesota Veterinary Medical Center", "South Metro Animal Hospital"],
+    "education": {
+      "veterinary_school": "University of Minnesota College of Veterinary Medicine"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Nationwide Pet Insurance", "ASPCA Pet Health Insurance"]
+  },
+  "VET024": {
+    "name": "Dr. Wyatt Nelson",
+    "specialty": "Emergency and Critical Care",
+    "address": {
+      "street": "333 Mississippi Avenue",
+      "city": "Jackson",
+      "state": "MS",
+      "zip_code": "39201"
+    },
+    "phone": "(601) 555-7788",
+    "email": "w.nelson@mississippivet.com",
+    "years_experience": 8,
+    "board_certified": "True",
+    "clinic_affiliations": ["Mississippi State University College of Veterinary Medicine", "Jackson Emergency Vet Clinic"],
+    "education": {
+      "veterinary_school": "Mississippi State University College of Veterinary Medicine",
+      "internship": "Veterinary Specialty Hospital of the Carolinas",
+      "residency": "BluePearl Veterinary Partners"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Pets Best", "Lemonade Pet Insurance"]
+  },
+  "VET025": {
+    "name": "Dr. Chloe Hill",
+    "specialty": "Oncology",
+    "address": {
+      "street": "444 Arch Street",
+      "city": "St. Louis",
+      "state": "MO",
+      "zip_code": "63101"
+    },
+    "phone": "(314) 555-9900",
+    "email": "c.hill@missourivet.com",
+    "years_experience": 13,
+    "board_certified": "True",
+    "clinic_affiliations": ["Veterinary Specialty Services", "University of Missouri Veterinary Health Center"],
+    "education": {
+      "veterinary_school": "University of Missouri College of Veterinary Medicine",
+      "residency": "Animal Medical Center"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Petplan"]
+  },
+  "VET026": {
+    "name": "Dr. Leo Rivera",
+    "specialty": "Large Animal Practice",
+    "address": {
+      "street": "555 Big Sky Road",
+      "city": "Helena",
+      "state": "MT",
+      "zip_code": "59601"
+    },
+    "phone": "(406) 555-1212",
+    "email": "l.rivera@montanavet.com",
+    "years_experience": 9,
+    "board_certified": "False",
+    "clinic_affiliations": ["Montana Large Animal Vet", "Helena Veterinary Clinic"],
+    "education": {
+      "veterinary_school": "Washington State University College of Veterinary Medicine"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Not applicable for livestock", "Farm Bureau"]
+  },
+  "VET027": {
+    "name": "Dr. Zoey Cooper",
+    "specialty": "Dermatology",
+    "address": {
+      "street": "666 Platte River Road",
+      "city": "Omaha",
+      "state": "NE",
+      "zip_code": "68102"
+    },
+    "phone": "(402) 555-3434",
+    "email": "z.cooper@nebraskavet.com",
+    "years_experience": 16,
+    "board_certified": "True",
+    "clinic_affiliations": ["Nebraska Animal Medical Center", "Midwest Veterinary Dermatology"],
+    "education": {
+      "veterinary_school": "Iowa State University College of Veterinary Medicine",
+      "residency": "University of California, Davis"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Healthy Paws", "Embrace Pet Insurance"]
+  },
+  "VET028": {
+    "name": "Dr. Gabriel Howard",
+    "specialty": "Emergency and Critical Care",
+    "address": {
+      "street": "777 Strip View Drive",
+      "city": "Las Vegas",
+      "state": "NV",
+      "zip_code": "89101"
+    },
+    "phone": "(702) 555-5656",
+    "email": "g.howard@nevadavet.com",
+    "years_experience": 7,
+    "board_certified": "True",
+    "clinic_affiliations": ["Las Vegas Veterinary Specialty and Emergency", "Southern Nevada Veterinary Specialists"],
+    "education": {
+      "veterinary_school": "Western University of Health Sciences College of Veterinary Medicine",
+      "internship": "VCA Emergency Animal Hospital and Referral Center",
+      "residency": "BluePearl Veterinary Partners"
+    },
+    "languages": ["English", "Spanish"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Petplan", "ASPCA Pet Health Insurance"]
+  },
+  "VET029": {
+    "name": "Dr. Luna Ward",
+    "specialty": "Ophthalmology",
+    "address": {
+      "street": "888 Granite State Road",
+      "city": "Concord",
+      "state": "NH",
+      "zip_code": "03301"
+    },
+    "phone": "(603) 555-7878",
+    "email": "l.ward@newhampshirevet.com",
+    "years_experience": 11,
+    "board_certified": "True",
+    "clinic_affiliations": ["Port City Veterinary Referral Hospital", "Capital Area Veterinary Emergency and Specialty"],
+    "education": {
+      "veterinary_school": "Tufts University Cummings School of Veterinary Medicine",
+      "residency": "Angell Animal Medical Center"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Nationwide Pet Insurance"]
+  },
+  "VET030": {
+    "name": "Dr. Owen Sanchez",
+    "specialty": "Cardiology",
+    "address": {
+      "street": "999 Garden State Parkway",
+      "city": "Newark",
+      "state": "NJ",
+      "zip_code": "07102"
+    },
+    "phone": "(973) 555-9090",
+    "email": "o.sanchez@newjerseyvet.com",
+    "years_experience": 17,
+    "board_certified": "True",
+    "clinic_affiliations": ["Red Bank Veterinary Hospital", "Garden State Veterinary Specialists"],
+    "education": {
+      "veterinary_school": "University of Pennsylvania School of Veterinary Medicine",
+      "residency": "MedVet Medical & Cancer Centers for Pets"
+    },
+    "languages": ["English", "Spanish"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Pets Best", "Healthy Paws"]
+  },
+  "VET031": {
+    "name": "Dr. Nora Baker",
+    "specialty": "Avian and Exotics",
+    "address": {
+      "street": "111 Desert Bloom Lane",
+      "city": "Santa Fe",
+      "state": "NM",
+      "zip_code": "87501"
+    },
+    "phone": "(505) 555-1234",
+    "email": "n.baker@newmexicovet.com",
+    "years_experience": 10,
+    "board_certified": "True",
+    "clinic_affiliations": ["Thornburg Vet Clinic", "Santa Fe Animal Shelter & Humane Society"],
+    "education": {
+      "veterinary_school": "Colorado State University College of Veterinary Medicine and Biomedical Sciences",
+      "internship": "Veterinary Medical Center of Long Island",
+      "residency": "The University of Georgia"
+    },
+    "languages": ["English", "Spanish"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["PetFirst", "Figo Pet Insurance"]
+  },
+  "VET032": {
+    "name": "Dr. Leo Garcia",
+    "specialty": "Neurology",
+    "address": {
+      "street": "222 Empire State Building",
+      "city": "New York",
+      "state": "NY",
+      "zip_code": "10001"
+    },
+    "phone": "(212) 555-5678",
+    "email": "l.garcia@newyorkvet.com",
+    "years_experience": 14,
+    "board_certified": "True",
+    "clinic_affiliations": ["Animal Medical Center", "Long Island Veterinary Specialists"],
+    "education": {
+      "veterinary_school": "Cornell University College of Veterinary Medicine",
+      "residency": "University of Georgia"
+    },
+    "languages": ["English", "Spanish"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Embrace Pet Insurance", "Figo Pet Insurance"]
+  },
+  "VET033": {
+    "name": "Dr. Clara Martinez",
+    "specialty": "Dentistry",
+    "address": {
+      "street": "333 Research Triangle Park",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip_code": "27601"
+    },
+    "phone": "(919) 555-9012",
+    "email": "c.martinez@northcarolinavet.com",
+    "years_experience": 9,
+    "board_certified": "True",
+    "clinic_affiliations": ["NC State Veterinary Hospital", "Carolina Veterinary Specialists"],
+    "education": {
+      "veterinary_school": "North Carolina State University College of Veterinary Medicine",
+      "residency": "Animal Dentistry Training Center"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Nationwide Pet Insurance"]
+  },
+  "VET034": {
+    "name": "Dr. Henry Wilson",
+    "specialty": "General Practice - Mixed Animal",
+    "address": {
+      "street": "444 Great Plains Road",
+      "city": "Fargo",
+      "state": "ND",
+      "zip_code": "58102"
+    },
+    "phone": "(701) 555-3456",
+    "email": "h.wilson@northdakotavet.com",
+    "years_experience": 6,
+    "board_certified": "False",
+    "clinic_affiliations": ["North Dakota State University Veterinary Technology Program", "Fargo Vet Clinic"],
+    "education": {
+      "veterinary_school": "University of Minnesota College of Veterinary Medicine"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Pets Best", "Lemonade Pet Insurance"]
+  },
+  "VET035": {
+    "name": "Dr. Lily Miller",
+    "specialty": "Surgery",
+    "address": {
+      "street": "555 Buckeye Boulevard",
+      "city": "Columbus",
+      "state": "OH",
+      "zip_code": "43210"
+    },
+    "phone": "(614) 555-7890",
+    "email": "l.miller@ohiovet.com",
+    "years_experience": 19,
+    "board_certified": "True",
+    "clinic_affiliations": ["Ohio State University Veterinary Medical Center", "MedVet Medical & Cancer Centers for Pets"],
+    "education": {
+      "veterinary_school": "Ohio State University College of Veterinary Medicine",
+      "residency": "Michigan State University"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Healthy Paws", "Trupanion"]
+  },
+  "VET036": {
+    "name": "Dr. Jude Thompson",
+    "specialty": "Internal Medicine - Equine",
+    "address": {
+      "street": "666 Sooner State Road",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zip_code": "73102"
+    },
+    "phone": "(405) 555-1122",
+    "email": "j.thompson@oklahomavet.com",
+    "years_experience": 11,
+    "board_certified": "True",
+    "clinic_affiliations": ["Oklahoma State University Center for Veterinary Health Sciences", "Oklahoma Equine Hospital"],
+    "education": {
+      "veterinary_school": "Oklahoma State University Center for Veterinary Health Sciences",
+      "residency": "Purdue University"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Not applicable for livestock", "Markel Horse Insurance"]
+  },
+  "VET037": {
+    "name": "Dr. Hannah White",
+    "specialty": "Radiology",
+    "address": {
+      "street": "777 Columbia River Way",
+      "city": "Portland",
+      "state": "OR",
+      "zip_code": "97201"
+    },
+    "phone": "(503) 555-3344",
+    "email": "h.white@oregonvet.com",
+    "years_experience": 15,
+    "board_certified": "True",
+    "clinic_affiliations": ["DoveLewis Emergency Animal Hospital", "Oregon State University Veterinary Teaching Hospital"],
+    "education": {
+      "veterinary_school": "Oregon State University College of Veterinary Medicine",
+      "residency": "University of Wisconsin-Madison"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Petplan"]
+  },
+  "VET038": {
+    "name": "Dr. Ezra Davis",
+    "specialty": "Reproduction",
+    "address": {
+      "street": "888 Liberty Bell Lane",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip_code": "19106"
+    },
+    "phone": "(215) 555-5566",
+    "email": "e.davis@pennsylvaniavet.com",
+    "years_experience": 13,
+    "board_certified": "True",
+    "clinic_affiliations": ["University of Pennsylvania Ryan Veterinary Hospital", "Veterinary Referral Center"],
+    "education": {
+      "veterinary_school": "University of Pennsylvania School of Veterinary Medicine",
+      "residency": "Texas A&M University"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Not applicable for livestock", "Breeding Insurance"]
+  },
+  "VET039": {
+    "name": "Dr. Stella Rodriguez",
+    "specialty": "Feline Medicine",
+    "address": {
+      "street": "999 Ocean State Drive",
+      "city": "Providence",
+      "state": "RI",
+      "zip_code": "02903"
+    },
+    "phone": "(401) 555-7788",
+    "email": "s.rodriguez@rhodeislandvet.com",
+    "years_experience": 8,
+    "board_certified": "False",
+    "clinic_affiliations": ["Bay State Veterinary Emergency Services", "Providence Animal Hospital"],
+    "education": {
+      "veterinary_school": "Tufts University Cummings School of Veterinary Medicine"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Healthy Paws", "Embrace Pet Insurance"]
+  },
+  "VET040": {
+    "name": "Dr. Grayson Garcia",
+    "specialty": "Zoological Medicine",
+    "address": {
+      "street": "101 Palmetto State Road",
+      "city": "Charleston",
+      "state": "SC",
+      "zip_code": "29401"
+    },
+    "phone": "(843) 555-9900",
+    "email": "g.garcia@southcarolinavet.com",
+    "years_experience": 12,
+    "board_certified": "True",
+    "clinic_affiliations": ["South Carolina Aquarium", "Charleston Veterinary Referral Center"],
+    "education": {
+      "veterinary_school": "University of Georgia College of Veterinary Medicine",
+      "residency": "Smithsonian National Zoo"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Not applicable"]
+  },
+  "VET041": {
+    "name": "Dr. Ruby Lopez",
+    "specialty": "Rehabilitation",
+    "address": {
+      "street": "222 Mount Rushmore Road",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "zip_code": "57104"
+    },
+    "phone": "(605) 555-1212",
+    "email": "r.lopez@southdakotavet.com",
+    "years_experience": 7,
+    "board_certified": "True",
+    "clinic_affiliations": ["Sioux Falls Animal Emergency Hospital", "Animal Health Clinic of Sioux Falls"],
+    "education": {
+      "veterinary_school": "Iowa State University College of Veterinary Medicine",
+      "residency": "University of Tennessee"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Nationwide Pet Insurance"]
+  },
+  "VET042": {
+    "name": "Dr. Finn White",
+    "specialty": "Anesthesiology",
+    "address": {
+      "street": "333 Music City Lane",
+      "city": "Nashville",
+      "state": "TN",
+      "zip_code": "37203"
+    },
+    "phone": "(615) 555-3434",
+    "email": "f.white@tennesseeivet.com",
+    "years_experience": 16,
+    "board_certified": "True",
+    "clinic_affiliations": ["University of Tennessee Veterinary Medical Center", "Nashville Veterinary Specialists"],
+    "education": {
+      "veterinary_school": "University of Tennessee College of Veterinary Medicine",
+      "residency": "University of Florida"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Petplan", "Pets Best"]
+  },
+  "VET043": {
+    "name": "Dr. Grace Evans",
+    "specialty": "Internal Medicine - Small Animal",
+    "address": {
+      "street": "444 Lone Star Road",
+      "city": "Houston",
+      "state": "TX",
+      "zip_code": "77002"
+    },
+    "phone": "(713) 555-5656",
+    "email": "g.evans@texasvet.com",
+    "years_experience": 19,
+    "board_certified": "True",
+    "clinic_affiliations": ["Texas A&M Veterinary Medical Teaching Hospital", "Gulf Coast Veterinary Specialists"],
+    "education": {
+      "veterinary_school": "Texas A&M University College of Veterinary Medicine & Biomedical Sciences",
+      "residency": "Cornell University"
+    },
+    "languages": ["English", "Spanish"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Healthy Paws", "Embrace Pet Insurance"]
+  },
+  "VET044": {
+    "name": "Dr. Jack Lewis",
+    "specialty": "Pathology",
+    "address": {
+      "street": "555 Beehive State Drive",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "zip_code": "84101"
+    },
+    "phone": "(801) 555-7878",
+    "email": "j.lewis@utahvet.com",
+    "years_experience": 10,
+    "board_certified": "True",
+    "clinic_affiliations": ["Utah Veterinary Medical Association", "Animal Reference Pathology"],
+    "education": {
+      "veterinary_school": "Colorado State University College of Veterinary Medicine and Biomedical Sciences",
+      "residency": "Ohio State University"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Not applicable for lab services"]
+  },
+  "VET045": {
+    "name": "Dr. Chloe Hall",
+    "specialty": "Preventative Care",
+    "address": {
+      "street": "666 Green Mountain Road",
+      "city": "Burlington",
+      "state": "VT",
+      "zip_code": "05401"
+    },
+    "phone": "(802) 555-9090",
+    "email": "c.hall@vermontvet.com",
+    "years_experience": 5,
+    "board_certified": "False",
+    "clinic_affiliations": ["Burlington Emergency & Veterinary Specialists", "Vermont Vet Clinic"],
+    "education": {
+      "veterinary_school": "Tufts University Cummings School of Veterinary Medicine"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Nationwide Pet Insurance", "ASPCA Pet Health Insurance"]
+  },
+  "VET046": {
+    "name": "Dr. Ryan King",
+    "specialty": "Emergency and Critical Care",
+    "address": {
+      "street": "777 Old Dominion Road",
+      "city": "Richmond",
+      "state": "VA",
+      "zip_code": "23219"
+    },
+    "phone": "(804) 555-1234",
+    "email": "r.king@virginiavet.com",
+    "years_experience": 8,
+    "board_certified": "True",
+    "clinic_affiliations": ["Virginia Veterinary Specialists", "Virginia-Maryland College of Veterinary Medicine"],
+    "education": {
+      "veterinary_school": "Virginia-Maryland College of Veterinary Medicine",
+      "internship": "Veterinary Specialty Hospital of the Carolinas",
+      "residency": "BluePearl Veterinary Partners"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Pets Best", "Lemonade Pet Insurance"]
+  },
+  "VET047": {
+    "name": "Dr. Sophie Green",
+    "specialty": "Oncology",
+    "address": {
+      "street": "888 Evergreen State Way",
+      "city": "Seattle",
+      "state": "WA",
+      "zip_code": "98101"
+    },
+    "phone": "(206) 555-5678",
+    "email": "s.green@washingtonvet.com",
+    "years_experience": 14,
+    "board_certified": "True",
+    "clinic_affiliations": ["Seattle Veterinary Specialists", "Washington State University Veterinary Teaching Hospital"],
+    "education": {
+      "veterinary_school": "Washington State University College of Veterinary Medicine",
+      "residency": "Animal Medical Center"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Trupanion", "Petplan"]
+  },
+  "VET048": {
+    "name": "Dr. David Baker",
+    "specialty": "Large Animal Practice",
+    "address": {
+      "street": "999 Mountain Mama Lane",
+      "city": "Charleston",
+      "state": "WV",
+      "zip_code": "25301"
+    },
+    "phone": "(304) 555-9012",
+    "email": "d.baker@westvirginiavet.com",
+    "years_experience": 9,
+    "board_certified": "False",
+    "clinic_affiliations": ["West Virginia University Davis College of Agriculture, Natural Resources and Design", "Charleston Vet Clinic"],
+    "education": {
+      "veterinary_school": "Virginia-Maryland College of Veterinary Medicine"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Not applicable for livestock", "Farm Bureau"]
+  },
+  "VET049": {
+    "name": "Dr. Victoria Evans",
+    "specialty": "Dermatology",
+    "address": {
+      "street": "101 Dairy State Road",
+      "city": "Madison",
+      "state": "WI",
+      "zip_code": "53703"
+    },
+    "phone": "(608) 555-3456",
+    "email": "v.evans@wisconsinvet.com",
+    "years_experience": 17,
+    "board_certified": "True",
+    "clinic_affiliations": ["University of Wisconsin-Madison School of Veterinary Medicine", "Madison Veterinary Specialists"],
+    "education": {
+      "veterinary_school": "University of Wisconsin-Madison School of Veterinary Medicine",
+      "residency": "University of California, Davis"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "True",
+    "insurance_accepted": ["Healthy Paws", "Embrace Pet Insurance"]
+  },
+  "VET050": {
+    "name": "Dr. John White",
+    "specialty": "Emergency and Critical Care",
+    "address": {
+      "street": "222 Cowboy State Road",
+      "city": "Cheyenne",
+      "state": "WY",
+      "zip_code": "82001"
+    },
+    "phone": "(307) 555-7890",
+    "email": "j.white@wyomingvet.com",
+    "years_experience": 7,
+    "board_certified": "True",
+    "clinic_affiliations": ["Cheyenne Pet Clinic", "Wyoming Veterinary Hospital"],
+    "education": {
+      "veterinary_school": "Colorado State University College of Veterinary Medicine and Biomedical Sciences",
+      "internship": "BluePearl Veterinary Partners",
+      "residency": "University of Pennsylvania"
+    },
+    "languages": ["English"],
+    "accepts_new_patients": "False",
+    "insurance_accepted": ["Petplan", "ASPCA Pet Health Insurance"]
+  }
+}
