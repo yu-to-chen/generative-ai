@@ -1,0 +1,80 @@
+Found 53 PDF files to process.
+
+Processing paper 1 - 2.獎勵布建住宿式長照機構資源計畫-114年度待獎勵區域(1140502).pdf, 3801 characters
+Processing paper 2 - 衛部顧字第1131962420號公告.pdf, 2 characters
+Processing paper 3 - 問答集1.pdf, 1293 characters
+Processing paper 4 - 長照專業服務操作指引-操作篇-共通操作指引_公告.pdf, 19399 characters
+Processing paper 5 - 問答集2.pdf, 938 characters
+Processing paper 6 - 照顧實務指導員訓練(公告).pdf, 1311 characters
+Processing paper 7 - 家庭照顧者支持服務據點專業人員工作手冊.pdf, 75805 characters
+Processing paper 8 - 院臺衛字第1131014413號.pdf, 695 characters
+Processing paper 9 - 問答集3.pdf, 557 characters
+Processing paper 10 - 112年居家失能個案家庭醫師照護方案(1120626).pdf, 13720 characters
+Processing paper 11 - 112年居家失能個案家庭醫師照護方案公告(1120626).pdf, 0 characters
+Processing paper 12 - 家庭照顧者支持服務原則(公告).pdf, 1804 characters
+Processing paper 13 - 附件1-申請流程圖（114.04.09修正版）.pdf, 906 characters
+Processing paper 14 - 各縣市失智症照顧及服務資訊.pdf, 1721 characters
+Processing paper 15 - 「住宿機構強化感染管制獎勵計畫」縣市計畫書格式.pdf, 2173 characters
+Processing paper 16 - 3.公告-獎勵布建住宿式長照機構資源計畫.pdf, 0 characters
+Processing paper 17 - 長照專業服務操作指引-附錄一-服務紀錄參考格式_公告.pdf, 4911 characters
+Processing paper 18 - 預立醫療照護諮商及預立醫療決定宣導單.pdf, 941 characters
+Processing paper 19 - 4.獎勵布建住宿式長照機構資源計畫申請作業需知(1131227修正公告).pdf, 11933 characters
+Processing paper 20 - 長期照顧整合課程(LevelⅢ).pdf, 628 characters
+Processing paper 21 - 「住宿機構強化感染管制獎勵計畫」成果報告格式.pdf, 872 characters
+Processing paper 22 - 住宿式長照機構之旱災、停水、水資源短缺緊急應變指引.pdf, 2052 characters
+Processing paper 23 - 1130628修訂本部「減少照護機構住民至醫療機構就醫方案」公告及計畫書.pdf, 9456 characters
+Processing paper 24 - 長期照顧專業課程(LevelⅡ)及整合課程(LevelⅢ)授課講師資格.pdf, 389 characters
+Processing paper 25 - 長照專業服務操作指引-附錄二-居家護理指導與諮詢服務的處置指引_公告.pdf, 64957 characters
+Processing paper 26 - 長照專業服務操作指引-附錄三-案例說明_公告.pdf, 64157 characters
+Processing paper 27 - 長照專業服務操作指引-觀念篇_公告.pdf, 36408 characters
+Ignoring wrong pointing object 6 0 (offset 0)
+Ignoring wrong pointing object 8 0 (offset 0)
+Ignoring wrong pointing object 10 0 (offset 0)
+Ignoring wrong pointing object 12 0 (offset 0)
+Ignoring wrong pointing object 14 0 (offset 0)
+Ignoring wrong pointing object 16 0 (offset 0)
+Ignoring wrong pointing object 24 0 (offset 0)
+Ignoring wrong pointing object 26 0 (offset 0)
+Ignoring wrong pointing object 28 0 (offset 0)
+Ignoring wrong pointing object 43 0 (offset 0)
+Ignoring wrong pointing object 48 0 (offset 0)
+Ignoring wrong pointing object 54 0 (offset 0)
+Ignoring wrong pointing object 227 0 (offset 0)
+Ignoring wrong pointing object 232 0 (offset 0)
+Ignoring wrong pointing object 234 0 (offset 0)
+Ignoring wrong pointing object 236 0 (offset 0)
+Ignoring wrong pointing object 238 0 (offset 0)
+Ignoring wrong pointing object 240 0 (offset 0)
+Ignoring wrong pointing object 242 0 (offset 0)
+Ignoring wrong pointing object 257 0 (offset 0)
+Ignoring wrong pointing object 752 0 (offset 0)
+Ignoring wrong pointing object 754 0 (offset 0)
+Processing paper 28 - 附件3-長照機構暨長照人員相關管理資訊系統_品質提升管理_介接規格書v4.5.pdf, 73705 characters
+Processing paper 29 - 失智共同照護中心及社區服務據點參考手冊.pdf, 26055 characters
+Processing paper 30 - 113至116年住宿機構照顧品質獎勵計畫(公告核定版).pdf, 21152 characters
+Processing paper 31 - 附件2-住宿機構照顧品質獎勵計畫說明會議 v1.4R（114.6.13更新）.pdf, 5459 characters
+Processing paper 32 - 住宿式機構與醫院合作服務合約參考範本.pdf, 1047 characters
+Processing paper 33 - 長照高負荷家庭照顧者轉介及服務流程.pdf, 1255 characters
+Processing paper 34 - 院臺衛字第1131020942號函PDF.pdf, 619 characters
+Processing paper 35 - 1.公告-獎勵布建住宿式長照機構資源計畫-114年度待獎勵區域.pdf, 6 characters
+Processing paper 36 - 附件4、住宿機構照顧品質獎勵計畫-懶人包.pdf, 326 characters
+Processing paper 37 - 住宿機構照顧品質獎勵計畫問答集(113年11月28日版).pdf, 21100 characters
+Processing paper 38 - 長照專業服務操作指引-操作篇-居家護理指導與諮詢操作指引_公告.pdf, 4301 characters
+Processing paper 39 - 「住宿式機構強化感染管制獎勵計畫」衛生福利部權責司署計畫審查內容及評分原則.pdf, 807 characters
+Processing paper 40 - 高負荷家庭照顧者初篩指標.pdf, 1345 characters
+Processing paper 41 - L2+L3課程及師資公告函.pdf, 1318 characters
+Processing paper 42 - 長照專業服務手冊1120109(公告修正).pdf, 32 characters
+Processing paper 43 - 住宿式機構照顧服務員進階培訓獎勵計畫(修訂公告).pdf, 5586 characters
+Processing paper 44 - 失智症共同照護中心清冊.pdf, 6751 characters
+Processing paper 45 - 「住宿機構強化感染管制獎勵計畫」指標評核佐證資料建議範本.pdf, 31905 characters
+Processing paper 46 - 住宿式長照機構清冊-簡版名單(114年4月底).pdf, 7733 characters
+Processing paper 47 - 衛部顧字第1131961750號公告.pdf, 2 characters
+Processing paper 48 - 長照專業服務手冊-修正說明表(公告).pdf, 23243 characters
+Processing paper 49 - 「住宿機構強化感染管制獎勵計畫」機構申請表.pdf, 807 characters
+Processing paper 50 - 長照2.0視覺識別系統手冊.pdf, 66 characters
+Processing paper 51 - 衛生福利部112-114年度「出院準備銜接長照服務計畫」申請作業須知.pdf, 20326 characters
+Processing paper 52 - 長期照顧專業課程(LevelⅡ).pdf, 44903 characters
+Processing paper 53 - 113至116年度「住宿機構強化感染管制獎勵計畫」.pdf, 14775 characters
+
+Total papers processed: 53.0, 50128
+
