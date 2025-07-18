@@ -1,0 +1,52 @@
+Processing paper 5 - 問答集2.pdf, 938 characters
+行動感知智慧輔助科技結合物聯網與人工智慧技術，提供離床、跌倒、走失等監測功能及24小時安全與健康自動巡房輔助照顧科技。移動支援智慧輔助科技利用資通訊、感測與機電技術提升高齡者獨立生活能力，如健康促進復能訓練和自動翻身輔助。照護支援智慧輔助科技包括久臥監測及個案移動情形即時監測。排泄支援智慧輔助科技提供排泄物處理、尿量監測和排泄監測。入浴支援智慧輔助科技則有自動沐浴功能。所有設備須符合中央主管機關醫療器材許可證字號/登錄字號，並通過第三方公正單位檢測以符資訊安全規範。
+
+附件2：指標4智慧輔助科技說明
+涵蓋率規模
+項目 安全規格
+住宿機構申請本
+計畫時之床數
+(一般護理之家、精神護理之家及住宿式長照機構以開放床數計；老福機構、身障機構以服務人數計)
+
+Processing paper 17 - 長照專業服務操作指引-附錄一-服務紀錄參考格式_公告.pdf, 4911 characters
+長照專業服務操作指引-附錄一包括以下內容：
+1. 服務合約書：個案和單位需簽署，確認接受由特定單位提供的專業服務，並了解執行原則、服務項目、收費標準等。
+2. 評估表暨服務計畫建議大綱：含個案基本資料、能力狀況與特殊需求評估、主要照顧者狀況評估以及專業服務潛力評估等內容。
+3. 服務紀錄表：每次服務均需填寫，包括個案基本資料、服務提供者資料、服務項目、次數和時間、訓練紀錄及簽章等欄位。
+4. 居家指導紀錄表：用於促進專業人員與照顧者的有效溝通，確保除服務時段外個案也能自行訓練。
+
+Processing paper 22 - 住宿式長照機構之旱災、停水、水資源短缺緊急應變指引.pdf, 2052 characters
+本指引旨在為機構住宿式長期照顧服務機構及綜合式長照機構提供因應旱災、停水或水源短缺時的供水和節水措施。內容包括平時的減災準備與儲水，如檢查漏水、定期維護設備、了解機構總儲水量；緊急狀況下的應變措施，例如關閉不必要的區域、減少用水量、尋找替代水源並確保其安全；人員作業方面則有建立應變小組、收集水情資料及進行教育訓練等；保護住民安全，包括監測疾病和食品衛生、使用少水產品及拋棄式餐具；感染管制則強調手部清潔與飲水衛生。最後還需檢測儲水設備及總結應變過程中的改進點。
+
+Processing paper 25 - 長照專業服務操作指引-附錄二-居家護理指導與諮詢服務的處置指引_公告.pdf, 64957 characters
+This document outlines guidelines for conducting foot care in home nursing settings. The key components are:
+
+1. **Foot Health Assessment**: Includes detailed examination of toes (including nail condition), feet, skin health, blood supply evaluation at the toe web spaces, and asking about diabetes history, medication use, and blood sugar control.
+
+2. **Correct Nail Trimming Technique**: Emphasizes trimming nails straight across with rounded edges to prevent ingrown toenails. 
+
+3. **Foot Bathing Procedures**:
+   - Temperature: 41-43°C for general soaking; cooler (35-40°C) if there are wounds.
+   - Duration: 10-15 minutes, shorter duration if there are open sores or injuries.
+
+4. **Scrubbing Tools**: Use of a loofah sponge or wet towel to gently remove hard skin and calluses on heels, toes, and nail edges.
+
+5. **Post-Care Grooming**: Includes addressing wounds, managing ingrown toenails, and cleaning undernail debris with specialized tools like an orange stick or cuticle scissors. 
+
+6. **Disinfection Protocol**:
+   - Clean instruments after each use.
+   - Use chlorine water to disinfect tools.
+   - Store sanitized items in a clean container.
+
+7. **Care Instructions for Family/Caregivers**: Emphasizes the importance of regular foot care, correct nail trimming methods, and daily moisturizing routines. 
+
+8. **Follow-Up Care Evaluation**:
+   - Assess patient's understanding of foot problems and prevention measures.
+   - Evaluate caregiver's ability to perform foot care independently.
+
+9. **Referral Guidelines**: Suggests professional medical referral for individuals with diabetes, hypertension, ulcers, or wounds.
+
+10. **Documentation**: Requires comprehensive records including assessment forms, teaching sheets, follow-up evaluations, and adherence to long-term care service laws or relevant healthcare regulations.
+
+This guideline serves as a reference tool for healthcare providers delivering foot care services in home settings, emphasizing proper technique, patient education, and infection control measures.
+
