@@ -1,0 +1,16 @@
+[project]
+name = "pydanticmodel"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.61.0",
+    "dotenv>=0.9.9",
+    "instructor>=1.10.0",
+    "jupyter>=1.1.1",
+    "ollama>=0.5.1",
+    "openai>=1.99.1",
+    "pydantic-ai>=0.5.0",
+    "pydantic[email]>=2.11.7",
+]
