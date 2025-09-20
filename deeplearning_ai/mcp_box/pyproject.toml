@@ -1,0 +1,12 @@
+[project]
+name = "mcpbox"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-genai>=1.38.0",
+    "pandas>=2.3.2",
+    "pypdf2>=3.0.1",
+]
