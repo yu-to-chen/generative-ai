@@ -1,3 +1,3 @@
 In my_agent/
-Run:
-adk web
+- Run:
+- adk web
