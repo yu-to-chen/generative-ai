@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Minimalist Snake</title>
+<style>
+  :root{ --bg:#000; --grid-gap:4px; --cell-size:36px; --green:#29ff29; --darkgreen:#042004 }
+  html,body{height:100%;margin:0;background:var(--bg);color:var(--green);font-family:SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+  .wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;box-sizing:border-box}
+  .panel{display:flex;flex-direction:column;gap:14px;align-items:center}
+  .head{display:flex;gap:12px;align-items:center}
+  .score{font-size:18px}
+  button{background:transparent;color:var(--green);border:1px solid #073a07;padding:6px 10px;border-radius:6px;cursor:pointer}
+  button:hover{background:rgba(41,255,41,0.04)}
+  .grid{display:grid;grid-template-columns:repeat(10,var(--cell-size));grid-template-rows:repeat(10,var(--cell-size));gap:var(--grid-gap);background:transparent;padding:8px;border:1px solid #042404}
+  .cell{width:var(--cell-size);height:var(--cell-size);display:flex;align-items:center;justify-content:center;background:#001100;color:var(--green);font-size:20px;user-select:none}
+  .cell.empty{background:#001100}
+  .cell.snake{background:linear-gradient(180deg, #003800, #001800);box-shadow:inset 0 0 6px rgba(41,255,41,0.06);border:1px solid #042a04}
+  .cell.head{outline:1px solid rgba(41,255,41,0.08)}
+  .cell.food{background:transparent}
+  .overlay{position:fixed;top:0;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.6);color:var(--green);font-size:28px;flex-direction:column}
+  .small{font-size:14px;color:#8cff8c;margin-top:6px}
+  footer{margin-top:6px;font-size:12px;color:#0f7a0f}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="panel">
+    <div class="head">
+      <div class="score">Score: <span id="score">0</span></div>
+      <button id="restart">Restart</button>
+    </div>
+    <div id="grid" class="grid" aria-label="Snake game grid"></div>
+    <footer>Use Arrow Keys — Retro green on black</footer>
+  </div>
+</div>
+
+<div id="overlay" class="overlay" style="display:none">
+  <div id="overlay-text">Game Over</div>
+  <div class="small">Press Restart to play again</div>
+</div>
+
+<script>
+(function(){
+  const COLS = 10, ROWS = 10;
+  const SPEED = 4; // blocks per second
+  const TICK = 1000 / SPEED; // ms
+  const gridEl = document.getElementById('grid');
+  const scoreEl = document.getElementById('score');
+  const restartBtn = document.getElementById('restart');
+  const overlay = document.getElementById('overlay');
+  const overlayText = document.getElementById('overlay-text');
+
+  // food emojis
+  const FOOD_EMOJI = ['🍎','🍇','🍒','🍌','🍉','🍓','🍕','🍔','🌮','🥕','🍊','🍍','🥝'];
+
+  let cells = []; // 2D array of elements
+  let snake = []; // array of {x,y}
+  let dir = {x:1,y:0};
+  let nextDir = {x:1,y:0};
+  let food = null; // {x,y,emoji}
+  let score = 0;
+  let intervalId = null;
+  let running = false;
+
+  function createGrid(){
+    gridEl.innerHTML = '';
+    cells = [];
+    for(let y=0;y<ROWS;y++){
+      const row = [];
+      for(let x=0;x<COLS;x++){
+        const div = document.createElement('div');
+        div.className = 'cell empty';
+        div.dataset.x = x;
+        div.dataset.y = y;
+        gridEl.appendChild(div);
+        row.push(div);
+      }
+      cells.push(row);
+    }
+  }
+
+  function setCell(x,y,cls,text){
+    const el = cells[y][x];
+    el.className = 'cell ' + (cls||'empty');
+    el.textContent = text || '';
+  }
+
+  function spawnFood(){
+    // pick random empty cell
+    let x,y,tries=0;
+    do{
+      x = Math.floor(Math.random()*COLS);
+      y = Math.floor(Math.random()*ROWS);
+      tries++;
+    }while((isOnSnake(x,y) || (food && food.x===x && food.y===y)) && tries<1000);
+    const emoji = FOOD_EMOJI[Math.floor(Math.random()*FOOD_EMOJI.length)];
+    food = {x,y,emoji};
+  }
+
+  function isOnSnake(x,y){
+    return snake.some(s=>s.x===x && s.y===y);
+  }
+
+  function init(){
+    createGrid();
+    // initial snake: length 3 centered
+    const startX = Math.floor(COLS/2) - 1;
+    const startY = Math.floor(ROWS/2);
+    snake = [
+      {x:startX+2,y:startY},
+      {x:startX+1,y:startY},
+      {x:startX,y:startY}
+    ];
+    dir = {x:1,y:0};
+    nextDir = {x:1,y:0};
+    score = 0;
+    scoreEl.textContent = score;
+    spawnFood();
+    running = true;
+    overlay.style.display = 'none';
+    render();
+    if(intervalId) clearInterval(intervalId);
+    intervalId = setInterval(tick, TICK);
+  }
+
+  function render(){
+    // clear
+    for(let y=0;y<ROWS;y++){
+      for(let x=0;x<COLS;x++){
+        setCell(x,y,'empty','');
+      }
+    }
+    // food
+    if(food){
+      setCell(food.x,food.y,'food',food.emoji);
+    }
+    // snake
+    for(let i=0;i<snake.length;i++){
+      const s = snake[i];
+      const cls = 'snake' + (i===0? ' head' : '');
+      setCell(s.x,s.y,cls,'');
+    }
+  }
+
+  function tick(){
+    if(!running) return;
+    // apply nextDir (prevent reverse)
+    if((nextDir.x !== -dir.x || nextDir.y !== -dir.y)){
+      dir = nextDir;
+    }
+    const head = snake[0];
+    const nx = head.x + dir.x;
+    const ny = head.y + dir.y;
+    // collision with walls
+    if(nx<0 || nx>=COLS || ny<0 || ny>=ROWS){
+      return gameOver('Hit the wall');
+    }
+    // collision with self
+    if(isOnSnake(nx,ny)){
+      return gameOver('Ran into yourself');
+    }
+    // move
+    snake.unshift({x:nx,y:ny});
+    // eat?
+    if(food && nx===food.x && ny===food.y){
+      score++;
+      scoreEl.textContent = score;
+      spawnFood();
+    } else {
+      snake.pop();
+    }
+    render();
+  }
+
+  function gameOver(msg){
+    running = false;
+    overlayText.textContent = msg || 'Game Over';
+    overlay.style.display = 'flex';
+    if(intervalId) clearInterval(intervalId);
+  }
+
+  window.addEventListener('keydown',function(e){
+    const key = e.key;
+    if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(key)){
+      e.preventDefault();
+      if(!running) return;
+      if(key === 'ArrowUp') nextDir = {x:0,y:-1};
+      if(key === 'ArrowDown') nextDir = {x:0,y:1};
+      if(key === 'ArrowLeft') nextDir = {x:-1,y:0};
+      if(key === 'ArrowRight') nextDir = {x:1,y:0};
+    }
+  });
+
+  restartBtn.addEventListener('click', function(){
+    init();
+  });
+
+  // Start
+  init();
+
+})();
+</script>
+</body>
+</html>
