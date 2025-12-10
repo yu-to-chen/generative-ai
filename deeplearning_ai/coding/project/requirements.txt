@@ -1,0 +1,5 @@
+e2b-code-interpreter==2.2.0
+openai==2.4.0
+python-dotenv>=1.1.1
+jupyter>=1.1.1
+jupyter-ai>=3.0.0b9,<3.1
