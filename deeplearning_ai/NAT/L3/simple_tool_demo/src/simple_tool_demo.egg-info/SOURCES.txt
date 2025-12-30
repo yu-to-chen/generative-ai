@@ -1,0 +1,10 @@
+pyproject.toml
+src/simple_tool_demo/__init__.py
+src/simple_tool_demo/register.py
+src/simple_tool_demo/simple_function.py
+src/simple_tool_demo.egg-info/PKG-INFO
+src/simple_tool_demo.egg-info/SOURCES.txt
+src/simple_tool_demo.egg-info/dependency_links.txt
+src/simple_tool_demo.egg-info/entry_points.txt
+src/simple_tool_demo.egg-info/requires.txt
+src/simple_tool_demo.egg-info/top_level.txt

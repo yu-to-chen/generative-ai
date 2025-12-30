@@ -1,0 +1,4 @@
+nvidia-nat~=1.0
+pandas
+matplotlib
+seaborn
