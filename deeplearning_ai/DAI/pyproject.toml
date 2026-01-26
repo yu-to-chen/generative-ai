@@ -1,0 +1,25 @@
+[project]
+name = "dai"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.4.1",
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "landingai-ade>=1.4.0",
+    "langchain==0.1.20",
+    "langchain-community==0.0.38",
+    "langchain-core==0.1.52",
+    "langchain-openai==0.1.7",
+    "matplotlib>=3.10.8",
+    "paddleocr>=3.3.3",
+    "paddlepaddle==3.0.0",
+    "pandas>=2.3.3",
+    "pillow>=12.1.0",
+    "pydantic-settings>=2.12.0",
+    "pymupdf>=1.26.7",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.2.1",
+    "torch>=2.9.1",
+    "transformers>=4.57.6",
+]
