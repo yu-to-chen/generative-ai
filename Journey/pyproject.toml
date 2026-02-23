@@ -1,0 +1,23 @@
+[project]
+name = "journey"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.13.2",
+    "jupyter-bokeh>=4.0.5",
+    "langchain>=0.3.0,<1.0.0",
+    "langchain-community>=0.3.31",
+    "langchain-core>=0.3.0,<1.0.0",
+    "langchain-openai>=0.3.35",
+    "openai>=2.21.0",
+    "pandas>=3.0.1",
+    "panel>=1.8.7",
+    "pydub>=0.25.1",
+    "yt-dlp>=2026.2.21",
+]
+
+[tool.uv.sources]
+langchain-classic = { git = "https://github.com/langchain-ai/langchain.git", subdirectory = "libs/langchain" }
