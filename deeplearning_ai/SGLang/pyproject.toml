@@ -1,0 +1,15 @@
+[project]
+name = "sglang"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.13.0",
+    "diffusers>=0.37.1",
+    "dotenv>=0.9.9",
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.2",
+    "tabulate>=0.10.0",
+    "torch>=2.11.0",
+    "transformers>=5.5.3",
+    "typing>=3.10.0.0",
+]
